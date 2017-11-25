@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html ng-app="missionApp">
-    
-    <head>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>  
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-      <script src="app.js"></script>
 
-      <script src="Gallery/Breeds.js"></script>
-      <script src="Gallery/breedsCtrl.js"></script>
-      <script src="movie/movieCtrl.js"></script>
-      <script src="movie/Movie.js"></script>  
-      <script src="movie/movieDirective.js"></script>
-    </head>
-    <body>
-            <div id="myDIV" class="header">
-                    <h2 style="margin:5px">My To Do List</h2>
-                    <input type="text" id="myInput" placeholder="Title...">
-                    <span onclick="newElement()" class="addBtn">Add</span>
-            </div>
-                  
-            <ul id="myUL">
-                    <li>Hit the gym</li>
-                    <li class="checked">Pay bills</li>
-                    <li>Meet George</li>
-                    <li>Buy eggs</li>
-                    <li>Read a book</li>
-                    <li>Organize office</li>
-            </ul>
-                  
-      <!--<nav class="navbar navbar-inverse">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+    <script src="Gallery/Breeds.js"></script>
+    <script src="Gallery/breedsCtrl.js"></script>
+    <script src="movie/movieCtrl.js"></script>
+    <script src="movie/Movie.js"></script>
+    <script src="movie/movieDirective.js"></script>
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+    </ul>
+
+    <!--<nav class="navbar navbar-inverse">
         <a class="navbar-brand" href="#!">Dogs Book</a>
         <ul class="nav navbar-nav">
             <li ng-class="{active : isActive('Breeds')}">
@@ -44,9 +48,7 @@
     
     <ng-view></ng-view>
 -->
-    </body>
-    
-    
-    </html>
+</body>
 
 
+</html>
